@@ -1,5 +1,5 @@
 name = "proxy-indonesia"
-compatibility_date = "2024-01-15"
+compatibility_date = "2025-01-15"
 main = "worker.js"
 
 [vars]
@@ -8,5 +8,5 @@ SUB_PAGE_URL = ""
 
 # ===== ADD THIS =====
 [[kv_namespaces]]
-binding = "USER_STORAGE"
-id = "040e0550250d48a494852ff49ae9103d"
+binding = "indo"
+id = "3dfe761d25f844d28a460d63c2ee57f1"
