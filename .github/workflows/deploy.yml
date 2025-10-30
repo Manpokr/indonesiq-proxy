@@ -1,0 +1,22 @@
+name: Deploy Cloudflare Worker
+
+on:
+  push:
+    branches:
+      - main # Atau branch yang ingin Anda gunakan
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install Wrangler
+        run: npm install -g wrangler
+
+      - name: Deploy Worker
+        run: wrangler deploy
+        env:
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }} # Rahasia GitHub
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }} # Rahasia GitHub
