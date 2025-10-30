@@ -1,12 +1,16 @@
-name = "proxy-indonesia"
-compatibility_date = "2025-01-15"
-main = "worker.js"
+name = "https://indo.kayatinur505.workers.dev/"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+account_id = "id-akun-cloudflare-kamu"
+workers_dev = true
 
 [vars]
-PROXY_LIST_URL = "https://raw.githubusercontent.com/adipatijowo/indonesiq-proxy/refs/heads/main/proxy-list.json"
-SUB_PAGE_URL = ""
+# Gunakan Wrangler Secrets untuk kredensial yang lebih aman
+#USERNAME = "username-yang-aman"
+#PASSWORD = "password-yang-aman"
+PROXY_LIST_URL = "https://url-raw-json-proxy-kamu.com/proxy-list.json"
 
-# ===== ADD THIS =====
-[[kv_namespaces]]
-binding = "indo"
-id = "3dfe761d25f844d28a460d63c2ee57f1"
+[kv_namespaces]
+bindings = [
+  { name = "SESSION_KV", id = "id-namespace-kv-kamu" }
+]
