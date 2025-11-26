@@ -12,5 +12,5 @@ PROXY_LIST_URL = "https://github.com/Manpokr/indonesiq-proxy/refs/heads/main/pro
 
 [kv_namespaces]
 bindings = [
-  { name = "settings", id = "3650a8727db344fd9f34051ea2699dc8" }
+  { name = "indo", id = "b4619013c5bf406f8306e66949b4c6d8" }
 ]
