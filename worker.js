@@ -15,7 +15,7 @@ const PORTS = [443, 80];
 const PROTOCOLS = [atob(horse), atob(flash), "ss"];
 
 // ⚠️ GANTI DENGAN URL RAW JSON ANDA ⚠️
-const PROXY_LIST_URL = "https://raw.githubusercontent.com/USERNAME-ANDA/REPO-ANDA/main/proxy-list.json";
+const PROXY_LIST_URL = "https://raw.githubusercontent.com/Manpokr/indonesiq-proxy/main/proxy-list.json";
 const SUB_PAGE_URL = "https://your-subscription-page.com";
 
 const DNS_SERVER_ADDRESS = "8.8.8.8";
