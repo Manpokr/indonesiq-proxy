@@ -1,4 +1,4 @@
-name = "proxy-worker"
+name = "indonesiq-proxy"
 main = "src/index.js"
 compatibility_date = "2025-01-01"
 account_id = "d385e371-7327-47d5-aac5-ae32ec713546"
